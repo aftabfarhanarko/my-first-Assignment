@@ -1,0 +1,52 @@
+
+.open-sans-new-file {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Header Section Start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 0px;
+    align-items: center;
+
+}
+.my-header{
+    background-image: url('../img/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titel-header{
+    font-size: 49px;
+    color: rgb(78, 71 ,255);
+}
+.singup-btn{
+    font-size: 24px;
+    padding: 10px 26px;
+    background-color: rgb(78, 71 ,255);
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.70s;
+}
+.singup-btn:hover{
+   background-color: aquamarine;
+}
+.dicption-text{
+    text-align: center;
+
+}
+.main-text-header{
+    font-size: 50px;
+    padding: 100px 350px 50px;
+}
+
+/* Header End */
+
