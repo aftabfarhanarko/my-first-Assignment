@@ -7,6 +7,10 @@
     "wdth" 100;
 }
 
+.main-test , section{
+    padding: 130px 0px 130px 0px;
+}
+
 /* Header Section Start */
 nav{
     display: flex;
@@ -50,3 +54,28 @@ nav{
 
 /* Header End */
 
+/* action-section */
+
+.action-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.all-text{
+    display: flex;
+    justify-content: space-between;
+}
+.second-img{
+    border-radius: 15px;
+}
+.letar{
+    padding-top: 30px;
+}
+.titel{
+    font-size: 40px;
+}
+.dicption{
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(117, 116, 116);
+    margin-top: -5px;
+}
