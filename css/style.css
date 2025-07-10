@@ -99,7 +99,7 @@ nav{
     background-color: rgb(229, 231,255);
     margin: 0 auto;
     border-radius: 15px;
-    padding: 35px;
+    padding: 5px;
 }
 .claculate{
     display: flex;
@@ -113,7 +113,7 @@ nav{
 }
 
 .user{
-    font-size: 59px;
+    font-size: 55px;
     color: #4E47FF;
 }
 .subtitel{
@@ -123,3 +123,58 @@ nav{
     margin-top: -50px;
 }
 
+/* feedback */
+.feedback{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.feedback-titel{
+    text-align: center;
+    font-size: 36px;
+    color: rgb(88, 88, 88);
+}
+.section-had{
+    display: flex;
+    gap: 20px;
+    margin-top: 45px;
+}
+.card-sec{
+    padding: 25px;
+  box-shadow: 0px 6px 50px 0px rgb(222, 222, 222);
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 15px;
+}
+.main-t{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sub-te{
+    margin-top: -19px;
+    font-size: 18px;    /*  (-) Margine Likhaci */
+    color: rgb(117, 116, 116);
+}
+
+
+.revivew{
+    display: flex;
+    gap: 10px;
+}
+.rewew-img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 35px;
+
+}
+.tel{
+    font-size: 18px;
+    font-weight: 500;
+     color: rgb(87, 87, 87);
+}
+.review-dc{
+    font-size: 16px;
+    margin-top: -22px;
+    color:  rgb(122, 122, 122);
+}
