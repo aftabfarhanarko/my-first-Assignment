@@ -202,3 +202,56 @@ nav{
     border-radius: 15px;
     margin-top: 40px;
 }
+
+/* souch */
+
+.souch{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+ input[type="email"], input[type="text"]{
+        height: 35px;
+    border-radius: 6px;
+    background-color: white;
+    display: block;
+    width: 400px;
+    padding: 10px 15px;
+    margin-bottom: 20px ;
+    margin-top: 10px;
+    border: none;
+    font-size: 16px;
+}
+label{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+textarea{
+    margin-top: 10px;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+.form-btn{
+     font-size: 20px;
+    padding: 10px 26px;
+    background-color: rgb(78, 71 ,255);
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.70s;
+    width: 100%;
+    margin-top: 30px;
+}
+.souch-titel{
+    font-size: 70px;
+    padding: 60px;
+}
