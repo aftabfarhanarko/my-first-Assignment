@@ -1,26 +1,31 @@
-
 .open-sans-new-file {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    background-color: rgb(245, 248,255);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background-color: rgb(245, 248, 255);
 }
 
-.main-test , section{
+/* All Section Padding Top Buttom Gap */
+.souch,
+.focus,
+.feedback,
+.producativ-user,
+.action-section {
     padding: 130px 0px 100px 0px;
 }
 
 /* Header Section Start */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 100px 0px;
     align-items: center;
 
 }
-.my-header{
+
+.my-header {
     background-image: url('../img/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,38 +33,43 @@ nav{
 
 }
 
-.titel-header{
+.titel-header {
     font-size: 49px;
-    color: rgb(78, 71 ,255);
+    color: rgb(78, 71, 255);
 }
-.singup-btn{
+
+.singup-btn {
     font-size: 24px;
     padding: 10px 26px;
-    background-color: rgb(78, 71 ,255);
+    background-color: rgb(78, 71, 255);
     border: none;
     color: white;
     font-weight: 500;
     border-radius: 10px;
     transition: 0.70s;
 }
-.singup-btn:hover{
-   background-color: aquamarine;
+
+.singup-btn:hover {
+    background-color: aquamarine;
 }
-.dicption-text{
+
+.dicption-text {
     text-align: center;
 
 }
-.cont{
+
+.cont {
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 60px 150px 0 ;
-    
+    padding: 60px 150px 0;
+
 }
-.main-text-header{
+
+.main-text-header {
     font-size: 50px;
     gap: 20px;
 }
@@ -68,24 +78,29 @@ nav{
 
 /* action-section */
 
-.action-section{
+.action-section {
     max-width: 1140px;
     margin: 0 auto;
 }
-.all-text{
+
+.all-text {
     display: flex;
     justify-content: space-between;
 }
-.second-img{
+
+.second-img {
     border-radius: 15px;
 }
-.letar{
+
+.letar {
     padding-top: 30px;
 }
-.titel{
+
+.titel {
     font-size: 40px;
 }
-.dicption{
+
+.dicption {
     font-size: 21px;
     font-weight: 400;
     color: rgb(117, 116, 116);
@@ -93,30 +108,33 @@ nav{
 }
 
 /* producativ-user */
-.producativ-user{
+.producativ-user {
     /* margin-top: 120px; */
     max-width: 1140px;
-    background-color: rgb(229, 231,255);
+    background-color: rgb(229, 231, 255);
     margin: 0 auto;
     border-radius: 15px;
     padding: 5px;
 }
-.claculate{
+
+.claculate {
     display: flex;
     justify-content: space-around;
 }
-.tag-for-nam{
+
+.tag-for-nam {
     padding-top: 25px;
-   text-align: center;
-   font-size: 40px;
-   color: rgb(57, 56, 56);
+    text-align: center;
+    font-size: 40px;
+    color: rgb(57, 56, 56);
 }
 
-.user{
+.user {
     font-size: 55px;
     color: #4E47FF;
 }
-.subtitel{
+
+.subtitel {
     font-size: 20px;
     font-weight: 400;
     color: rgb(120, 120, 120);
@@ -124,88 +142,96 @@ nav{
 }
 
 /* feedback */
-.feedback{
+.feedback {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.feedback-titel{
+.feedback-titel {
     text-align: center;
     font-size: 36px;
     color: rgb(88, 88, 88);
 }
-.section-had{
+
+.section-had {
     display: flex;
     gap: 20px;
     margin-top: 45px;
 }
-.card-sec{
+
+.card-sec {
     padding: 25px;
-  box-shadow: 0px 6px 50px 0px rgb(222, 222, 222);
-  border: 1px solid rgb(223, 222, 222);
-  border-radius: 15px;
+    box-shadow: 0px 6px 50px 0px rgb(222, 222, 222);
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 15px;
 }
-.main-t{
+
+.main-t {
     font-size: 22px;
     font-weight: bold;
 }
 
-.sub-te{
+.sub-te {
     margin-top: -19px;
-    font-size: 18px;    /*  (-) Margine Likhaci */
+    font-size: 18px;
+    /*  (-) Margine Likhaci */
     color: rgb(117, 116, 116);
 }
 
 
-.revivew{
+.revivew {
     display: flex;
     gap: 10px;
 }
-.rewew-img{
+
+.rewew-img {
     border-radius: 50%;
     height: 50px;
     width: 50px;
     margin-top: 35px;
 
 }
-.tel{
+
+.tel {
     font-size: 18px;
     font-weight: 500;
-     color: rgb(87, 87, 87);
+    color: rgb(87, 87, 87);
 }
-.review-dc{
+
+.review-dc {
     font-size: 16px;
     margin-top: -22px;
-    color:  rgb(122, 122, 122);
+    color: rgb(122, 122, 122);
 }
 
 /* focus */
-.focus{
+.focus {
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     padding: 35px;
     border-radius: 20px;
-   box-shadow: 0px 6px 50px 0px rgb(222, 222, 222);
+    box-shadow: 0px 6px 50px 0px rgb(222, 222, 222);
 }
 
-.titel4{
+.titel4 {
     font-size: 36px;
     color: rgb(60, 60, 60);
 }
-.su-titele{
+
+.su-titele {
     font-size: 20px;
     color: rgb(122, 122, 122);
 }
 
-.focus-section{
+.focus-section {
     border-radius: 15px;
     margin-top: 40px;
 }
 
 /* souch */
 
-.souch{
+.souch {
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
@@ -213,25 +239,27 @@ nav{
     gap: 30px;
 }
 
- input[type="email"], input[type="text"]{
-        height: 35px;
+input[type="email"],
+input[type="text"] {
+    height: 35px;
     border-radius: 6px;
     background-color: white;
     display: block;
     width: 400px;
     padding: 10px 15px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
     margin-top: 10px;
     border: none;
     font-size: 16px;
 }
-label{
+
+label {
     font-size: 18px;
     color: black;
     font-weight: 500;
 }
 
-textarea{
+textarea {
     margin-top: 10px;
     display: block;
     padding: 20px;
@@ -239,10 +267,11 @@ textarea{
     border: none;
     font-size: 16px;
 }
-.form-btn{
-     font-size: 20px;
+
+.form-btn {
+    font-size: 20px;
     padding: 10px 26px;
-    background-color: rgb(78, 71 ,255);
+    background-color: rgb(78, 71, 255);
     border: none;
     color: white;
     font-weight: 500;
@@ -251,7 +280,42 @@ textarea{
     width: 100%;
     margin-top: 30px;
 }
-.souch-titel{
+
+.souch-titel {
     font-size: 70px;
     padding: 60px;
+}
+
+/* Footer */
+.last-section {
+    margin: 0 auto;
+    background-color:  rgb(222, 222, 222);
+    padding-bottom: 0;
+    padding: 40px;
+}
+.tq{
+    text-align: center;
+}
+.footer-teitle {
+    font-size: 66px;
+    color: #4E47FF;
+    
+}
+.sub-footer{
+    font-size: 18px;
+    color: rgb(77, 76, 76);
+}
+ul{
+   display: flex;
+    text-align: center;
+    gap: 40px;
+}
+ul a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.bar-set{
+    justify-content: center;
 }
