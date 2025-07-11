@@ -109,7 +109,6 @@ nav {
 
 /* producativ-user */
 .producativ-user {
-    /* margin-top: 120px; */
     max-width: 1140px;
     background-color: rgb(229, 231, 255);
     margin: 0 auto;
@@ -174,7 +173,6 @@ nav {
 .sub-te {
     margin-top: -19px;
     font-size: 18px;
-    /*  (-) Margine Likhaci */
     color: rgb(117, 116, 116);
 }
 
